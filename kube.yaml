@@ -20,6 +20,9 @@ metadata:
 spec:
   replicas: 1
   template:
+    selector:
+      matchLabels:
+        app: maven	
     metadata:
       labels:
         app: maven
