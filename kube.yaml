@@ -6,7 +6,7 @@ spec:
   type: NodePort
   ports:
   - name: maven
-    port: 8080
+    port: 9153
     nodePort: 31002
     targetPort: 8080
     protocol: TCP
